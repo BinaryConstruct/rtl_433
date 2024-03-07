@@ -452,6 +452,18 @@ mappings = {
         }
     },
 
+    "door": {
+        "device_type": "binary_sensor",
+        "object_suffix": "door",
+        "config": {
+            "device_class": "door",
+            "force_update": "true",
+            "payload_on": "1",
+            "payload_off": "0",
+            "state_class": "measurement"
+        }
+    },
+
     "tamper": {
         "device_type": "binary_sensor",
         "object_suffix": "tamper",
